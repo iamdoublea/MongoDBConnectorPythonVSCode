@@ -7,12 +7,12 @@ list_of_files = [
    ".github/workflows/ci.yaml",
    "src/__init__.py",
    f"src/{package_name}/__init__.py", 
-   f"src/{package_name}/mongo_crud.py", 
+   f"src/{package_name}/mongo_crud.py", #crud = create read update and delete
    "tests/__init__.py",
    "tests/unit/__init__.py",
-   "tests/unit/unit.py",
+   "tests/unit/unit.py",  #we will write all the test cases on individual component
    "tests/integration/__init__.py",
-   "tests/integration/int.py",
+   "tests/integration/int.py", #we will do integration test case
    "init_setup.sh",
    "requirements.txt", 
    "requirements_dev.txt",
